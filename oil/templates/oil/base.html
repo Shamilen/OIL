@@ -1,7 +1,7 @@
 {% load static %}
 <html>
     <head>
-        <title>Django Girls blog</title>
+        <title>Татнефть/title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -16,8 +16,8 @@
     </div>
     <div class="content container">
         <div class="row">
-            <h1><a href="/">Меню:</a></h1>
             {% if user.is_authenticated %}
+            <h1><a href="/">Меню:</a></h1>
             <a href="post_new"> Поступление топлива</a>
              {% endif %}
         </div>
